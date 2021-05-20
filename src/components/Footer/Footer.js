@@ -20,7 +20,7 @@ const Footer = () => {
                     <i className="fab fa-facebook-square"></i>
                     </a>
                     <i className="far fa-envelope"></i><p>javiergonzaleze98@gmail.com</p>
-                    <a href="https://github.com" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/JavierGonzalez998" target="_blank" rel="noreferrer">
                     <i className="fab fa-github"></i>
                     </a>
                     <i className="fas fa-phone"></i><p>(+569) 61920063</p>
