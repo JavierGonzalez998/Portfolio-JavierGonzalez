@@ -6,7 +6,7 @@ const About = () => {
     <div className="about-container">
         
       <div className="about-desc">
-        <h3>Déjame contarte sobre mí</h3>
+        <h3>Acerca de mí</h3>
         <p>
           Mi nombre es Javier Gonzalez, tengo 21 años y vivo en Iquique, Chile.
           
