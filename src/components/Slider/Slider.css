@@ -61,6 +61,11 @@
 .BrainhubCarousel__arrows:hover > span{
     border-color: black !important;
 }
+.link:link, .link:visited, .link:active{
+    text-decoration: none;
+    color: white;
+}
+
 
 @media only screen and (max-width: 960px){
     .carousel-container{
@@ -74,4 +79,5 @@
     .slide-container{
         width: 100%;
     }
+
 }

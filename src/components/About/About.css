@@ -19,6 +19,7 @@
 
 .about-desc > p{
     line-height: 1.5;
+    margin-bottom: 30px;
 }
 .about-img{
     width: 45%;
@@ -29,6 +30,36 @@
 .about-img img{
     width: 100%;
     height: auto;
+}
+#lista1{
+    padding-left: 0;
+}
+#lista1 > li {
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+}
+#lista1 > li > i {
+    font-size: 90px;
+    margin-right:20px;
+}
+.html{
+    color: #DD4B25;
+}
+.css{
+    color: #3595CF;
+}
+.js{
+    color: #EFD81D;
+}
+.bootstrap{
+    color: #553B7C;
+}
+.react{
+    color: #00D1F7;
+}
+.php{
+    color: #858EB8;
 }
 
 @supports(object-fit: cover){
@@ -62,5 +93,13 @@
         width: 85%;
         object-position: center;
         margin:auto;
+    }
+    #lista1{
+        margin-left: 90px;
+
+    }
+    #lista1 > li > i {
+        font-size: 60px;
+        margin-right:20px;
     }
 }
