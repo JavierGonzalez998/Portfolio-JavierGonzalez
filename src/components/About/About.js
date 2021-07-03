@@ -8,7 +8,7 @@ const About = () => {
       <div className="about-desc">
         <h3>Acerca de mí</h3>
         <p>
-          Mi nombre es Javier Gonzalez, tengo 21 años y vivo en Iquique, Chile.
+          Mi nombre es Javier Gonzalez, tengo 23 años y vivo en Iquique, Chile.
           
           Actualmente estoy estudiando Analista Programador en Inacap. Estoy
           aprendiendo React, NodeJs, Express y MongoDB (Stack MERN). Amo
