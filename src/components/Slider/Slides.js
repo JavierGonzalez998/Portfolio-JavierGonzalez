@@ -8,6 +8,7 @@ const slidesInfo = [
         desc: "PokeTrainer",
         feat: "PokeTrainer es un sitio en el que puedes administrar tu equipo pokemon",
         site: "http://poketrainer.somee.com",
+        tech: ["ASP.NET", "Bootstrap"],
         github: "https://github.com/JavierGonzalez998/PokeTrainer"
     },
     {
@@ -16,6 +17,7 @@ const slidesInfo = [
         desc: "Project 2",
         feat: "Pronto mas proyectos",
         site: "#",
+        tech: [""],
         github: "#"
     },
     {
@@ -24,6 +26,7 @@ const slidesInfo = [
         desc: "Project 3",
         feat: "Pronto mas proyectos",
         site: "#",
+        tech: [""],
         github: "#"
     }
 ]
@@ -34,8 +37,9 @@ const slides = slidesInfo.map(slide =>(
         <img href={slide.site} src={slide.src} alt={slide.alt}/>
         <div className="slide-desc">
             <span>{slide.feat}</span>
-            <span><a className="link" href={slide.site}><i class="fas fa-external-link-alt"></i> Ir al Sitio</a></span>
-            <span><a href={slide.github} className="link"><i className="fab fa-github"></i> Ir al repositorio</a></span>
+            <span className={slide.tech[0] === "" ? 'hidden' : 'show'}>sitio hecho en {slide.tech.map(tech => (tech + " "))}</span>
+            <span className={slide.site === "#" ? 'hidden' : 'show'}><a className="link" href={slide.site}><i class="fas fa-external-link-alt"></i> Ir al Sitio</a></span>
+            <span className={slide.github === "#" ? 'hidden' : 'show'}><a href={slide.github} className="link"><i className="fab fa-github"></i> Ir al repositorio</a></span>
         </div>
     </div>
 ));

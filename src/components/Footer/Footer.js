@@ -13,7 +13,7 @@ const Footer = () => {
             </div>
             <div className="footer-sns">
                 <div className="design-by">
-                    Diseñado por Javier Gonzalez
+                    Diseñado en React por Javier Gonzalez
                 </div>
                 <div className="sns-links">
                     <a href="https://www.facebook.com/JavierGonzalez998" target="_blank" rel="noreferrer">

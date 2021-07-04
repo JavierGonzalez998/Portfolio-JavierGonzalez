@@ -65,8 +65,15 @@
     text-decoration: none;
     color: white;
 }
-
-
+.hidden{
+    display: none !important;
+}
+.show{
+    display: inline-block;
+}
+.link:hover{
+    border-bottom: 2px solid white;
+}
 @media only screen and (max-width: 960px){
     .carousel-container{
         flex-direction: column;
