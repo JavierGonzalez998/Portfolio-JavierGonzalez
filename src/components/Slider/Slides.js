@@ -4,7 +4,7 @@ import PokeTrainer from "../../media/PokeTrainer.png";
 import {useTranslation} from "react-i18next";
 
 const Slides = () => {
-    const [t, i18n] = useTranslation("global");
+    const [t] = useTranslation("global");
     const slidesInfo = [
         {
             src: PokeTrainer,

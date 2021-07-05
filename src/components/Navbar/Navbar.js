@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import "./Navbar.css";
 import {useTranslation} from "react-i18next";
 import esp from "../../media/espana.png";
@@ -21,7 +21,7 @@ const Navbar = ({ isScrolling }) => {
 
     return (
         <div className={`navbar ${isScrolling > 20 ? "scrolling" : null}`}>
-            <div className="navbar-logo" onClick={toTheTop}>Javier Gonzalez</div>
+            <div className="navbar-logo" onClick={toTheTop}>{t("about.name")}</div>
             <div className="languaje">
                  <button className="es" onClick={()=> setLocalStorage("es")}><img src={esp} alt="spain flag"/></button>
                  <button className="en" onClick={()=> setLocalStorage("en")}><img src={usa} alt="eeuu flag"/></button>

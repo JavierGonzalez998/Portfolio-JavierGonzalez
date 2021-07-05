@@ -2,7 +2,7 @@ import React from 'react';
 import "./Info.css";
 import {useTranslation} from "react-i18next";
 const Info = () => {
-    const [t, i18n] = useTranslation("global");
+    const [t] = useTranslation("global");
     return (
         <div className="info-container">
             <div className="info">

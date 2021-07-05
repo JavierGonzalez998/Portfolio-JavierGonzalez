@@ -3,7 +3,7 @@ import "./About.css";
 import ImgAbout from "../../media/ImgAbout.jpg";
 import {useTranslation} from "react-i18next";
 const About = () => {
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
     const techn =[{
       name: "html5",
       class: "fab fa-html5 html"
