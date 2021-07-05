@@ -80,6 +80,7 @@
 @media (max-width: 960px){
     .footer{
         padding-top: 30%;
+        max-width: 100%;
     }
     .footer-info{
         text-align: center;

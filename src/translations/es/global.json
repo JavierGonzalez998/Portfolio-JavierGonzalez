@@ -1,0 +1,25 @@
+{
+    "about": {
+        "title-about": "Acerca de mí",
+        "desc-about": "Mi nombre es Javier Gonzalez, tengo 23 años y vivo en Iquique, Chile.\n Actualmente estoy estudiando Analista Programador en Inacap. Estoy aprendiendo React, NodeJs, Express y MongoDB (Stack MERN). Amo programar y me gustaría aprender más tecnologías web para expandir mis conocimientos. También me gusta componer y producir música.",
+        "tech-about": "Tecnologías que uso"
+    },
+    "slider": {
+        "my-projects": "Mis proyectos",
+        "poketrainer-desc": "PokeTrainer es un sitio en el que puedes administrar tu equipo pokemon",
+        "site": "Sitio hecho en",
+        "goto-site": "Ir al sitio",
+        "goto-github": "Ir al repositorio",
+        "soon": "Pronto más proyectos"
+    },
+    "info": {
+        "info-title": "¡Trabajemos juntos y crearemos algo único!"
+    },
+    "footer": {
+        "info-title": "Javier Gonzalez",
+        "info-subtitle": "Ubicado en Iquique, Chile",
+        "contact-title": "Contáctame",
+        "contact-subtitle": "¡y pongámonos a trabajar!",
+        "design-by": "Diseñado y programado en React por Javier Gonzalez"
+    }
+}

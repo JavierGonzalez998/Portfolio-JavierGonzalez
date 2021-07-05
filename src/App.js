@@ -19,14 +19,15 @@ function App() {
   }, [scrollHeight]);
 
   return (
-    <div className="App">
-      <Navbar isScrolling = {scrollHeight}/>
-      <Cover/>
-      <About/>
-      <Slider/>
-      <Info/>
-      <Footer/>
-    </div>
+      <div className="App">
+        <Navbar isScrolling = {scrollHeight}/>
+        <Cover/>
+        <About/>
+        <Slider/>
+        <Info/>
+        <Footer/>
+      </div>
+    
   );
 }
 

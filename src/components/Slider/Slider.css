@@ -15,7 +15,8 @@
 }
 
 .slide-container{
-    height: 80%;
+    height: 0%;
+    margin-right: 3%;
     border-radius: 40px;
     overflow: hidden;
     position: relative;
@@ -35,7 +36,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 70%;
+    width: 80%;
     padding-left: 30px;
     border-top-left-radius: 20px;
     opacity: 0.8;
@@ -46,7 +47,6 @@
     font-size: 22px;
     padding: 20px 0 20px 10px;
 }
-
 .BrainhubCarousel__arrows{
     background-color: white;
     border-radius: 50%;
@@ -86,5 +86,16 @@
     .slide-container{
         width: 100%;
     }
-
+    .slide-container{
+        height: 100%;
+        width: 600px;
+    }
+    .slide-desc{
+        width: 80%;
+        height: max-content;
+    }
+    .slide-desc > span{
+        font-size: 13px;
+        padding: 20px 0 20px 10px;
+    }
 }

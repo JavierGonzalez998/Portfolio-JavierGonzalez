@@ -1,0 +1,25 @@
+{
+    "about": {
+        "title-about": "About me",
+        "desc-about": "My name is Javier Gonzalez, I'm 23 years old and I live in Iquique, Chile. Actually I'm studying Analista Programador in Inacap. Im learning React, Express, Mongodb and NodeJs (MERN Stack).I love programming and I'd like learn more web technologies to expand my knowledge. Also I like compose and produce music.",
+        "tech-about": "Technologies that I use"
+    },
+    "slider": {
+        "my-projects": "My projects",
+        "poketrainer-desc": "PokeTrainer is a site that you can manage your pokemon team",
+        "site": "The site was developed in",
+        "goto-site": "Go to the site",
+        "goto-github": "Go to the repository",
+        "soon": "More projects soon"
+    },
+    "info": {
+        "info-title": "Let's work and create something unique!"
+    },
+    "footer": {
+        "info-title": "Javier Gonzalez",
+        "info-subtitle": "Based in Iquique, Chile",
+        "contact-title": "Contact me",
+        "contact-subtitle": "and let's go to work!",
+        "design-by": "Designed and developed in React by Javier Gonzalez"
+    }
+}

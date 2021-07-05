@@ -1,40 +1,46 @@
 import React from "react";
 import "./About.css";
 import ImgAbout from "../../media/ImgAbout.jpg";
+import {useTranslation} from "react-i18next";
 const About = () => {
+  const [t, i18n] = useTranslation("global");
+    const techn =[{
+      name: "html5",
+      class: "fab fa-html5 html"
+    },
+    {
+      name: "css",
+      class: "fab fa-css3-alt css"
+    },
+    {
+      name: "js",
+      class: "fab fa-js js"
+    },
+    {
+      name: "bootstrap",
+      class: "fab fa-bootstrap bootstrap"
+    },
+    {
+      name: "react",
+      class: "fab fa-react react"
+    },
+    {
+      name: "php",
+      class: "fab fa-php php"
+    }
+  ]
   return (
     <div className="about-container">
-        
       <div className="about-desc">
-        <h3>Acerca de mí</h3>
-        <p>
-          Mi nombre es Javier Gonzalez, tengo 23 años y vivo en Iquique, Chile.
-          
-          Actualmente estoy estudiando Analista Programador en Inacap. Estoy
-          aprendiendo React, NodeJs, Express y MongoDB (Stack MERN). Amo
-          programar y me gustaría aprender más tecnologías web para expandir mis
-          conocimientos. También me gusta componer y producir música.
-        </p>
-        <h3>Tecnologías que uso</h3>
+        <h3>{t("about.title-about")}</h3>
+        <p>{t("about.desc-about")}</p>
+        <h3>{t("about.tech-about")}</h3>
         <ul className="mt-3"id="lista1">
-          <li>
-          <i className="fab fa-html5 html"></i>
-          </li>
-          <li>
-          <i className="fab fa-css3-alt css"></i>
-          </li>
-          <li>
-          <i className="fab fa-js js"></i>
-          </li>
-          <li>
-          <i className="fab fa-bootstrap bootstrap"></i>
-          </li>
-          <li>
-          <i className="fab fa-react react"></i>
-          </li>
-          <li>
-          <i className="fab fa-php php"></i>
-          </li>
+          {techn.map((tech) =>
+            <li key={techn.indexOf(tech)}>
+              <i className={tech.class}></i>
+            </li>
+          )}
         </ul>
       </div>
       <div className="about-img">
@@ -42,6 +48,6 @@ const About = () => {
       </div>
     </div>
   );
-};
+}
 
 export default About;
