@@ -2,7 +2,7 @@
     "about": {
         "name": "Javier Gonzalez",
         "title-about": "Acerca de mí",
-        "desc-about": "Mi nombre es Javier Gonzalez, tengo 23 años y vivo en Iquique, Chile.\n Actualmente estoy estudiando Analista Programador en Inacap. Estoy aprendiendo React, NodeJs, Express y MongoDB (Stack MERN). Amo programar y me gustaría aprender más tecnologías web para expandir mis conocimientos. También me gusta componer y producir música.",
+        "desc-about": "Mi nombre es Javier Gonzalez, tengo 23 años y vivo en Iquique, Chile.\n Egresado de Analista Programador en Inacap. Estoy aprendiendo React, NodeJs, Express y MongoDB (Stack MERN). Amo programar y me gustaría aprender más tecnologías web para expandir mis conocimientos. También me gusta componer y producir música.",
         "tech-about": "Tecnologías que uso"
     },
     "slider": {
