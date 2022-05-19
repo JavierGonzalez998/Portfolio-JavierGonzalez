@@ -2,7 +2,7 @@
     "about": {
         "name": "Javier Gonzalez",
         "title-about": "About me",
-        "desc-about": "My name is Javier Gonzalez, I'm 23 years old and I live in Iquique, Chile. Actually I studied Analista Programador in Inacap. Im learning React, Express, Mongodb and NodeJs (MERN Stack).I love programming and I'd like learn more web technologies to expand my knowledge. Also I like compose and produce music.",
+        "desc-about": "My name is Javier Gonzalez, I'm 23 years old and I live in Iquique, Chile. I studied Analista Programador in Inacap. Im learning React, Express, Mongodb and NodeJs (MERN Stack).I love programming and I'd like learn more web technologies to expand my knowledge. Also I like compose and produce music.",
         "tech-about": "Technologies that I use"
     },
     "slider": {
